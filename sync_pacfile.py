@@ -65,12 +65,11 @@ def copy_file(src_folder, dst_folder, filename, backup_flag=False):
 
 def main():
     #todo optimize here
-    # url = r'http://webpac.apa.zf-world.com/webpac/global.pac'
-    url = r'http://192.168.77.1:8080/a.txt'
+    url = r'http://webpac.apa.zf-world.com/webpac/global.pac'
     pacfile_name = os.path.basename(url)
-    download_folder = r'C:\Users\z218680\Desktop\pac_download'
-    backup_folder = r'C:\Users\z218680\Desktop\pac_backup'
-    pacfile_folder = r'C:\Users\z218680\Desktop\pac'
+    download_folder = r'D:\test\pacfile_download'
+    backup_folder = r'D:\test\pacfile_backup'
+    pacfile_folder = r'D:\test\pacfile_test'
 
     logger.info('Start: Sync pacfile from EMEA')
 

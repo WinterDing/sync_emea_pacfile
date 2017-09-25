@@ -6,7 +6,7 @@ import logging
 from logging import handlers
 import os
 
-log_file = 'C:\Users\z218680\Desktop\pac\synclog\sync_log.txt'
+log_file = r'D:\test\pacfile_synclog\sync_log.txt'
 log_folder = os.path.dirname(log_file)
 if not os.path.exists(log_folder):
     os.mkdir(log_folder)
