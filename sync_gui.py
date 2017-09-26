@@ -51,7 +51,7 @@ class PushButton(QWidget):
     def sync(self):
         self.res = 'process'
         self.res = self.func()
-        logger.info('End: Sync process finish')
+        logger.warning('End: Sync process finish')
 
     def clearText(self):
         self.lcd.clear()

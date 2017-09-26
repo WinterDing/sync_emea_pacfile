@@ -14,4 +14,5 @@
 	3) "pacfile_backup", everytime before apa production pacfile replacement, 
 		the application will backup current production apa pacfile first with name "global.pac_date_time", for example "global.pac_20170925_151731"
 	4) "pacfile_synclog"， log file folders, the logs will rotate when file size exceed 10M Bytes.
+4. When sync start, finish and error happens, there will be mail sending to related person
 	

@@ -71,7 +71,7 @@ def main():
     backup_folder = r'D:\test\pacfile_backup'
     pacfile_folder = r'D:\test\pacfile_test'
 
-    logger.info('Start: Sync pacfile from EMEA')
+    logger.warning('Start: Sync pacfile from EMEA')
 
     if download_new_file(url, download_folder, pacfile_name) == 'fail':
         return 'fail'

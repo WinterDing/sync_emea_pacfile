@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['sync_gui.py'],
-             pathex=['C:\\Users\\z218680\\Desktop\\production'],
+             pathex=['C:\\Users\\z218680\\Desktop\\Python\\pycharm\\work\\pacfile_sync\\production'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -25,4 +25,4 @@ exe = EXE(pyz,
           debug=False,
           strip=False,
           upx=True,
-          console=False , icon='C:\\Users\\z218680\\Desktop\\production\\logo.ico')
+          console=False , icon='logo.ico')
