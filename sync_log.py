@@ -25,9 +25,9 @@ mail_log.setLevel(level=logging.WARNING)
 
 formatter = logging.Formatter('%(asctime)s-%(name)s-%(levelname)s-%(message)s')
 rotateLog.setFormatter(formatter)
+mail_log.setFormatter(formatter)
 
 logger.addHandler(rotateLog)
 logger.addHandler(mail_log)
 
-logger.warning('test')
 
